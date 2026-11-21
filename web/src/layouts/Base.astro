@@ -1,0 +1,52 @@
+---
+interface Props { title: string; description: string; image?: string | null; jsonLd?: object }
+const { title, description, image, jsonLd } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const fullTitle = title.includes("Nomadia") ? title : `${title} | Nomadia`;
+---
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    {image && <meta property="og:image" content={image} />}
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="/">Nomadia</a>
+      <span class="tag">eSIM · SIM Card · Portable WiFi</span>
+    </header>
+    <main><slot /></main>
+    <footer class="foot">© {new Date().getFullYear()} Nomadia · Konten dikelola lewat Strapi, halaman dibangun dengan Astro.</footer>
+  </body>
+</html>
+
+<style is:global>
+  :root { --bg:#f6faf9; --card:#fff; --ink:#10211f; --muted:#5b6f6b; --brand:#0f766e; --brand-d:#0b5a54; --line:#dbe7e4; --radius:14px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0c1514; --card:#13211f; --ink:#e8f2f0; --muted:#97aeaa; --brand:#2dd4bf; --brand-d:#5eead4; --line:#23373a; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 4rem; }
+  body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--ink); line-height:1.55; }
+  a { color: var(--brand); }
+  main { max-width: 1040px; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+  .top { display:flex; align-items:center; gap:.75rem; padding:.9rem 1rem; border-bottom:1px solid var(--line); background:var(--card); position:sticky; top:0; z-index:5; }
+  .brand { font-weight:800; font-size:1.2rem; text-decoration:none; color:var(--brand); }
+  .tag { color:var(--muted); font-size:.85rem; }
+  .foot { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem; border-top:1px solid var(--line); }
+  .btn { display:inline-block; background:var(--brand); color:#fff; text-decoration:none; font-weight:700; padding:.7rem 1.1rem; border-radius:10px; border:0; cursor:pointer; }
+  .btn:hover { background:var(--brand-d); }
+  .btn[aria-disabled="true"] { opacity:.5; pointer-events:none; }
+  .chips { display:flex; flex-wrap:wrap; gap:.5rem; }
+  .chip { border:1px solid var(--line); background:var(--card); color:var(--ink); padding:.4rem .85rem; border-radius:999px; cursor:pointer; font:inherit; font-size:.9rem; }
+  .chip[aria-pressed="true"] { background:var(--brand); color:#fff; border-color:var(--brand); }
+</style>

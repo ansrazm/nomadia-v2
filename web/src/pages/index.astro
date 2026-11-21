@@ -1,0 +1,20 @@
+---
+import Base from "../layouts/Base.astro";
+import DestinationGrid, { type CardData } from "../components/DestinationGrid";
+import { getDestinations } from "../lib/strapi";
+import { startingPrice } from "../lib/format";
+
+const destinations = await getDestinations();
+const items: CardData[] = destinations.map((d) => ({
+  slug: d.slug, name: d.name, code: d.code, region: d.region, network: d.network, thumbUrl: d.thumbUrl,
+  startingPrice: startingPrice(d.products),
+  types: [...new Set(d.products.filter((p) => !p.soldOut).map((p) => p.type))],
+}));
+---
+<Base title="Nomadia: eSIM, SIM Card & Portable WiFi untuk Traveler" description="Internet lancar di luar negeri. Pilih eSIM, SIM Card, atau Portable WiFi untuk Jepang, Korea, Eropa, dan destinasi populer lainnya.">
+  <section style="padding:1rem 0 0">
+    <h1 style="font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.15;margin:0 0 .5rem">Tetap online ke mana pun kamu pergi.</h1>
+    <p style="color:var(--muted);max-width:60ch;margin:0">Pilih destinasi, bandingkan eSIM, SIM Card, dan Portable WiFi, lalu pesan lewat WhatsApp.</p>
+  </section>
+  <DestinationGrid client:load items={items} />
+</Base>

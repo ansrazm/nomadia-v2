@@ -1,0 +1,1024 @@
+[
+  {
+    "slug": "jepang",
+    "name": "Jepang",
+    "code": "jp",
+    "region": "Asia",
+    "network": "SoftBank, 4G/5G",
+    "factor": 1.1,
+    "position": 0,
+    "products": [
+      {
+        "sku": "jepang-esim-1",
+        "type": "esim",
+        "name": "eSIM Jepang 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 28000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-esim-3",
+        "type": "esim",
+        "name": "eSIM Jepang 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 66000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-esim-7",
+        "type": "esim",
+        "name": "eSIM Jepang 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 121000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-esim-15",
+        "type": "esim",
+        "name": "eSIM Jepang 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 209000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-esim-30",
+        "type": "esim",
+        "name": "eSIM Jepang 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 341000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-sim-7",
+        "type": "sim",
+        "name": "SIM Card Jepang 7 hari",
+        "days": 7,
+        "data": "10 GB",
+        "price": 165000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-sim-15",
+        "type": "sim",
+        "name": "SIM Card Jepang 15 hari",
+        "days": 15,
+        "data": "20 GB",
+        "price": 286000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-wifi-3",
+        "type": "wifi",
+        "name": "Portable WiFi Jepang 3 hari",
+        "days": 3,
+        "data": "Tanpa batas",
+        "price": 149000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-wifi-7",
+        "type": "wifi",
+        "name": "Portable WiFi Jepang 7 hari",
+        "days": 7,
+        "data": "Tanpa batas",
+        "price": 308000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "jepang-wifi-14",
+        "type": "wifi",
+        "name": "Portable WiFi Jepang 14 hari",
+        "days": 14,
+        "data": "Tanpa batas",
+        "price": 572000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "korea-selatan",
+    "name": "Korea Selatan",
+    "code": "kr",
+    "region": "Asia",
+    "network": "KT, 4G/5G",
+    "factor": 1.05,
+    "position": 1,
+    "products": [
+      {
+        "sku": "korea-selatan-esim-1",
+        "type": "esim",
+        "name": "eSIM Korea Selatan 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 26000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-esim-3",
+        "type": "esim",
+        "name": "eSIM Korea Selatan 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 63000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-esim-7",
+        "type": "esim",
+        "name": "eSIM Korea Selatan 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 116000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-esim-15",
+        "type": "esim",
+        "name": "eSIM Korea Selatan 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 200000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-esim-30",
+        "type": "esim",
+        "name": "eSIM Korea Selatan 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 326000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-sim-7",
+        "type": "sim",
+        "name": "SIM Card Korea Selatan 7 hari",
+        "days": 7,
+        "data": "10 GB",
+        "price": 158000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-sim-15",
+        "type": "sim",
+        "name": "SIM Card Korea Selatan 15 hari",
+        "days": 15,
+        "data": "20 GB",
+        "price": 273000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-wifi-3",
+        "type": "wifi",
+        "name": "Portable WiFi Korea Selatan 3 hari",
+        "days": 3,
+        "data": "Tanpa batas",
+        "price": 142000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-wifi-7",
+        "type": "wifi",
+        "name": "Portable WiFi Korea Selatan 7 hari",
+        "days": 7,
+        "data": "Tanpa batas",
+        "price": 294000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "korea-selatan-wifi-14",
+        "type": "wifi",
+        "name": "Portable WiFi Korea Selatan 14 hari",
+        "days": 14,
+        "data": "Tanpa batas",
+        "price": 546000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "singapura",
+    "name": "Singapura",
+    "code": "sg",
+    "region": "Asia",
+    "network": "Singtel, 4G/5G",
+    "factor": 0.8,
+    "position": 2,
+    "products": [
+      {
+        "sku": "singapura-esim-1",
+        "type": "esim",
+        "name": "eSIM Singapura 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 20000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-esim-3",
+        "type": "esim",
+        "name": "eSIM Singapura 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 48000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-esim-7",
+        "type": "esim",
+        "name": "eSIM Singapura 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 88000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-esim-15",
+        "type": "esim",
+        "name": "eSIM Singapura 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 152000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-esim-30",
+        "type": "esim",
+        "name": "eSIM Singapura 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 248000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-sim-7",
+        "type": "sim",
+        "name": "SIM Card Singapura 7 hari",
+        "days": 7,
+        "data": "10 GB",
+        "price": 120000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-sim-15",
+        "type": "sim",
+        "name": "SIM Card Singapura 15 hari",
+        "days": 15,
+        "data": "20 GB",
+        "price": 208000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-wifi-3",
+        "type": "wifi",
+        "name": "Portable WiFi Singapura 3 hari",
+        "days": 3,
+        "data": "Tanpa batas",
+        "price": 108000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-wifi-7",
+        "type": "wifi",
+        "name": "Portable WiFi Singapura 7 hari",
+        "days": 7,
+        "data": "Tanpa batas",
+        "price": 224000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "singapura-wifi-14",
+        "type": "wifi",
+        "name": "Portable WiFi Singapura 14 hari",
+        "days": 14,
+        "data": "Tanpa batas",
+        "price": 416000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "code": "my",
+    "region": "Asia",
+    "network": "Maxis, 4G",
+    "factor": 0.7,
+    "position": 3,
+    "products": [
+      {
+        "sku": "malaysia-esim-1",
+        "type": "esim",
+        "name": "eSIM Malaysia 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 18000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "malaysia-esim-3",
+        "type": "esim",
+        "name": "eSIM Malaysia 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 42000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "malaysia-esim-7",
+        "type": "esim",
+        "name": "eSIM Malaysia 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 77000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "malaysia-esim-15",
+        "type": "esim",
+        "name": "eSIM Malaysia 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 133000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "malaysia-esim-30",
+        "type": "esim",
+        "name": "eSIM Malaysia 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 217000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "malaysia-sim-7",
+        "type": "sim",
+        "name": "SIM Card Malaysia 7 hari",
+        "days": 7,
+        "data": "10 GB",
+        "price": 105000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "malaysia-sim-15",
+        "type": "sim",
+        "name": "SIM Card Malaysia 15 hari",
+        "days": 15,
+        "data": "20 GB",
+        "price": 182000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "code": "th",
+    "region": "Asia",
+    "network": "AIS, 4G/5G",
+    "factor": 0.75,
+    "position": 4,
+    "products": [
+      {
+        "sku": "thailand-esim-1",
+        "type": "esim",
+        "name": "eSIM Thailand 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 19000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-esim-3",
+        "type": "esim",
+        "name": "eSIM Thailand 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 45000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-esim-7",
+        "type": "esim",
+        "name": "eSIM Thailand 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 83000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-esim-15",
+        "type": "esim",
+        "name": "eSIM Thailand 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 143000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-esim-30",
+        "type": "esim",
+        "name": "eSIM Thailand 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 233000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-sim-7",
+        "type": "sim",
+        "name": "SIM Card Thailand 7 hari",
+        "days": 7,
+        "data": "10 GB",
+        "price": 113000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-sim-15",
+        "type": "sim",
+        "name": "SIM Card Thailand 15 hari",
+        "days": 15,
+        "data": "20 GB",
+        "price": 195000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-wifi-3",
+        "type": "wifi",
+        "name": "Portable WiFi Thailand 3 hari",
+        "days": 3,
+        "data": "Tanpa batas",
+        "price": 101000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-wifi-7",
+        "type": "wifi",
+        "name": "Portable WiFi Thailand 7 hari",
+        "days": 7,
+        "data": "Tanpa batas",
+        "price": 210000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "thailand-wifi-14",
+        "type": "wifi",
+        "name": "Portable WiFi Thailand 14 hari",
+        "days": 14,
+        "data": "Tanpa batas",
+        "price": 390000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "code": "vn",
+    "region": "Asia",
+    "network": "Viettel, 4G",
+    "factor": 0.75,
+    "position": 5,
+    "products": [
+      {
+        "sku": "vietnam-esim-1",
+        "type": "esim",
+        "name": "eSIM Vietnam 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 19000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "vietnam-esim-3",
+        "type": "esim",
+        "name": "eSIM Vietnam 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 45000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "vietnam-esim-7",
+        "type": "esim",
+        "name": "eSIM Vietnam 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 83000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "vietnam-esim-15",
+        "type": "esim",
+        "name": "eSIM Vietnam 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 143000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "vietnam-esim-30",
+        "type": "esim",
+        "name": "eSIM Vietnam 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 233000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "vietnam-sim-7",
+        "type": "sim",
+        "name": "SIM Card Vietnam 7 hari",
+        "days": 7,
+        "data": "10 GB",
+        "price": 113000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "vietnam-sim-15",
+        "type": "sim",
+        "name": "SIM Card Vietnam 15 hari",
+        "days": 15,
+        "data": "20 GB",
+        "price": 195000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "tiongkok",
+    "name": "Tiongkok",
+    "code": "cn",
+    "region": "Asia",
+    "network": "China Unicom, 4G",
+    "factor": 1,
+    "position": 6,
+    "products": [
+      {
+        "sku": "tiongkok-esim-1",
+        "type": "esim",
+        "name": "eSIM Tiongkok 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 25000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "tiongkok-esim-3",
+        "type": "esim",
+        "name": "eSIM Tiongkok 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 60000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "tiongkok-esim-7",
+        "type": "esim",
+        "name": "eSIM Tiongkok 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 110000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "tiongkok-esim-15",
+        "type": "esim",
+        "name": "eSIM Tiongkok 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 190000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "tiongkok-esim-30",
+        "type": "esim",
+        "name": "eSIM Tiongkok 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 310000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "tiongkok-wifi-3",
+        "type": "wifi",
+        "name": "Portable WiFi Tiongkok 3 hari",
+        "days": 3,
+        "data": "Tanpa batas",
+        "price": 135000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "tiongkok-wifi-7",
+        "type": "wifi",
+        "name": "Portable WiFi Tiongkok 7 hari",
+        "days": 7,
+        "data": "Tanpa batas",
+        "price": 280000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "australia",
+    "name": "Australia",
+    "code": "au",
+    "region": "Oseania",
+    "network": "Telstra, 4G/5G",
+    "factor": 1.25,
+    "position": 7,
+    "products": [
+      {
+        "sku": "australia-esim-3",
+        "type": "esim",
+        "name": "eSIM Australia 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 75000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "australia-esim-7",
+        "type": "esim",
+        "name": "eSIM Australia 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 138000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "australia-esim-15",
+        "type": "esim",
+        "name": "eSIM Australia 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 238000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "australia-esim-30",
+        "type": "esim",
+        "name": "eSIM Australia 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 388000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "australia-sim-7",
+        "type": "sim",
+        "name": "SIM Card Australia 7 hari",
+        "days": 7,
+        "data": "10 GB",
+        "price": 188000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      },
+      {
+        "sku": "australia-sim-15",
+        "type": "sim",
+        "name": "SIM Card Australia 15 hari",
+        "days": 15,
+        "data": "20 GB",
+        "price": 325000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "eropa",
+    "name": "Eropa (39 negara)",
+    "code": "eu",
+    "region": "Eropa",
+    "network": "Multi-operator, 4G/5G",
+    "factor": 1.35,
+    "position": 8,
+    "products": [
+      {
+        "sku": "eropa-esim-1",
+        "type": "esim",
+        "name": "eSIM Eropa (39 negara) 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 34000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "eropa-esim-3",
+        "type": "esim",
+        "name": "eSIM Eropa (39 negara) 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 81000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "eropa-esim-7",
+        "type": "esim",
+        "name": "eSIM Eropa (39 negara) 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 149000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "eropa-esim-15",
+        "type": "esim",
+        "name": "eSIM Eropa (39 negara) 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 257000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "eropa-esim-30",
+        "type": "esim",
+        "name": "eSIM Eropa (39 negara) 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 419000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "eropa-wifi-3",
+        "type": "wifi",
+        "name": "Portable WiFi Eropa (39 negara) 3 hari",
+        "days": 3,
+        "data": "Tanpa batas",
+        "price": 182000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "eropa-wifi-7",
+        "type": "wifi",
+        "name": "Portable WiFi Eropa (39 negara) 7 hari",
+        "days": 7,
+        "data": "Tanpa batas",
+        "price": 378000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "eropa-wifi-14",
+        "type": "wifi",
+        "name": "Portable WiFi Eropa (39 negara) 14 hari",
+        "days": 14,
+        "data": "Tanpa batas",
+        "price": 702000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "turki",
+    "name": "Turki",
+    "code": "tr",
+    "region": "Eropa",
+    "network": "Turkcell, 4G",
+    "factor": 1,
+    "position": 9,
+    "products": [
+      {
+        "sku": "turki-esim-3",
+        "type": "esim",
+        "name": "eSIM Turki 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 60000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "turki-esim-7",
+        "type": "esim",
+        "name": "eSIM Turki 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 110000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "turki-esim-15",
+        "type": "esim",
+        "name": "eSIM Turki 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 190000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "amerika-serikat",
+    "name": "Amerika Serikat",
+    "code": "us",
+    "region": "Amerika",
+    "network": "T-Mobile, 4G/5G",
+    "factor": 1.3,
+    "position": 10,
+    "products": [
+      {
+        "sku": "amerika-serikat-esim-1",
+        "type": "esim",
+        "name": "eSIM Amerika Serikat 1 hari",
+        "days": 1,
+        "data": "1 GB",
+        "price": 33000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "amerika-serikat-esim-3",
+        "type": "esim",
+        "name": "eSIM Amerika Serikat 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 78000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "amerika-serikat-esim-7",
+        "type": "esim",
+        "name": "eSIM Amerika Serikat 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 143000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "amerika-serikat-esim-15",
+        "type": "esim",
+        "name": "eSIM Amerika Serikat 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 247000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "amerika-serikat-esim-30",
+        "type": "esim",
+        "name": "eSIM Amerika Serikat 30 hari",
+        "days": 30,
+        "data": "20 GB",
+        "price": 403000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "amerika-serikat-wifi-7",
+        "type": "wifi",
+        "name": "Portable WiFi Amerika Serikat 7 hari",
+        "days": 7,
+        "data": "Tanpa batas",
+        "price": 364000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      },
+      {
+        "sku": "amerika-serikat-wifi-14",
+        "type": "wifi",
+        "name": "Portable WiFi Amerika Serikat 14 hari",
+        "days": 14,
+        "data": "Tanpa batas",
+        "price": 676000,
+        "note": "Sampai 5 perangkat sekaligus",
+        "soldOut": false
+      }
+    ]
+  },
+  {
+    "slug": "uni-emirat-arab",
+    "name": "Uni Emirat Arab",
+    "code": "ae",
+    "region": "Timur Tengah",
+    "network": "Etisalat, 4G/5G",
+    "factor": 1.15,
+    "position": 11,
+    "products": [
+      {
+        "sku": "uni-emirat-arab-esim-3",
+        "type": "esim",
+        "name": "eSIM Uni Emirat Arab 3 hari",
+        "days": 3,
+        "data": "3 GB",
+        "price": 69000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "uni-emirat-arab-esim-7",
+        "type": "esim",
+        "name": "eSIM Uni Emirat Arab 7 hari",
+        "days": 7,
+        "data": "5 GB",
+        "price": 126000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "uni-emirat-arab-esim-15",
+        "type": "esim",
+        "name": "eSIM Uni Emirat Arab 15 hari",
+        "days": 15,
+        "data": "10 GB",
+        "price": 218000,
+        "note": "Aktif saat pertama kali tersambung",
+        "soldOut": false
+      },
+      {
+        "sku": "uni-emirat-arab-sim-7",
+        "type": "sim",
+        "name": "SIM Card Uni Emirat Arab 7 hari",
+        "days": 7,
+        "data": "10 GB",
+        "price": 173000,
+        "note": "Termasuk ongkir ke seluruh Indonesia",
+        "soldOut": false
+      }
+    ]
+  }
+]

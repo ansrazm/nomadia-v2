@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": { "singularName": "product", "pluralName": "products", "displayName": "Product", "description": "Paket eSIM / SIM Card / Portable WiFi" },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": {},
+  "attributes": {
+    "sku": { "type": "string", "required": true, "unique": true },
+    "type": { "type": "enumeration", "enum": ["esim", "sim", "wifi"], "required": true },
+    "name": { "type": "string", "required": true },
+    "days": { "type": "integer", "required": true, "min": 1 },
+    "data": { "type": "string", "required": true },
+    "price": { "type": "integer", "required": true, "min": 0 },
+    "note": { "type": "string" },
+    "soldOut": { "type": "boolean", "default": false },
+    "destination": { "type": "relation", "relation": "manyToOne", "target": "api::destination.destination", "inversedBy": "products" }
+  }
+}

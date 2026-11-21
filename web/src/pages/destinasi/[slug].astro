@@ -1,0 +1,50 @@
+---
+import Base from "../../layouts/Base.astro";
+import PlanPicker from "../../components/PlanPicker";
+import { getDestinations } from "../../lib/strapi";
+import { flagUrl, rupiah, startingPrice } from "../../lib/format";
+import { typeLabel } from "../../lib/types";
+import type { Destination } from "../../lib/types";
+
+export async function getStaticPaths() {
+  const all = await getDestinations();
+  return all.map((d) => ({ params: { slug: d.slug }, props: { d } }));
+}
+
+const { d } = Astro.props as { d: Destination };
+const from = startingPrice(d.products);
+const types = [...new Set(d.products.map((p) => typeLabel[p.type]))].join(", ");
+const whatsapp = import.meta.env.PUBLIC_WHATSAPP_NUMBER ?? "";
+const image = d.bannerUrl ?? d.thumbUrl ?? flagUrl(d.code);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: `Paket internet ${d.name}`,
+  description: `${types} untuk ${d.name}.`,
+  image,
+  offers: {
+    "@type": "AggregateOffer",
+    priceCurrency: "IDR",
+    lowPrice: from ?? undefined,
+    highPrice: d.products.length ? Math.max(...d.products.map((p) => p.price)) : undefined,
+    offerCount: d.products.length,
+  },
+};
+---
+<Base
+  title={`eSIM, SIM Card & WiFi ${d.name}`}
+  description={`${types} untuk ${d.name}${from ? `, mulai ${rupiah(from)}` : ""}. Jaringan ${d.network ?? "lokal"}.`}
+  image={image}
+  jsonLd={jsonLd}
+>
+  <nav aria-label="Breadcrumb" style="font-size:.9rem;margin-bottom:1rem"><a href="/">Beranda</a> / {d.name}</nav>
+  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:1.25rem">
+    <img src={flagUrl(d.code)} alt="" width="56" height="40" style="border-radius:6px;object-fit:cover" />
+    <div>
+      <h1 style="margin:0">{d.name}</h1>
+      <p style="margin:0;color:var(--muted)">{d.region}{d.network ? ` · ${d.network}` : ""}</p>
+    </div>
+  </div>
+  <PlanPicker client:visible destination={d.name} products={d.products} whatsapp={whatsapp} />
+</Base>

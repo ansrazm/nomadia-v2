@@ -1,0 +1,53 @@
+# Satu perintah: docker compose up --build   (salin cms/.env.example -> cms/.env dulu dan isi rahasianya)
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: nomadia
+      POSTGRES_PASSWORD: nomadia
+      POSTGRES_DB: nomadia_cms
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nomadia -d nomadia_cms"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  cms:
+    build: ./cms
+    depends_on:
+      db: { condition: service_healthy }
+    env_file: ./cms/.env
+    environment:
+      DATABASE_HOST: db
+    volumes: [uploads:/app/public/uploads]
+    ports: ["1337:1337"]
+
+  api-db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: nomadia
+      POSTGRES_PASSWORD: nomadia
+      POSTGRES_DB: nomadia_api
+    volumes: [apidata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nomadia -d nomadia_api"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build: ./api
+    depends_on:
+      api-db: { condition: service_healthy }
+      cms: { condition: service_started }
+    environment:
+      DATABASE_URL: postgresql+asyncpg://nomadia:nomadia@api-db:5432/nomadia_api
+      STRAPI_URL: http://cms:1337
+      CORS_ORIGINS: http://localhost:4321
+    ports: ["8000:8000"]   # dokumentasi interaktif: http://localhost:8000/docs
+
+volumes:
+  pgdata:
+  apidata:
+  uploads:
